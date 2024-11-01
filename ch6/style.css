@@ -1,0 +1,120 @@
+.c1 {
+
+  
+    height: auto;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.border {
+    border: 2px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.p1 {
+    margin-top: 2px;
+    border: 3px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.p1>div>div {
+    margin: 1px;
+}
+
+.p1>div>div>p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+}
+
+.m1 {
+    margin: 1px;
+}
+
+.w {
+    width: 25px;
+    height: 116px;
+}
+
+.wEnd {
+    margin-top: 20px;
+    width: 86.5vw;
+    
+    
+}
+
+.new {
+    width: 80vw;
+}
+.new>div>p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.fdc {
+    flex-direction: column;
+}
+
+.fdr {
+    flex-direction: row;
+}
+
+
+.size {
+    width: 73px;
+    height: 55px;
+}
+
+.org {
+    background-color: rgb(209, 118, 6);
+}
+
+.blue {
+    background-color: rgb(68, 68, 241);
+}
+
+.purp {
+    background-color: rgb(227, 116, 227);
+}
+
+.dblue {
+    background-color: blue;
+}
+
+.lpink {
+    background-color: rgb(239, 182, 191);
+}
+
+.pink {
+    background-color: rgb(170, 114, 123);
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.lyellow {
+    background-color: rgb(228, 228, 143);
+}
+
+.green {
+    background-color: green;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.new>div {
+    background-color: rgb(239, 182, 191);
+}
