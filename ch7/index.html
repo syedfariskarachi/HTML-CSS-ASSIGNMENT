@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Your Details:</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <br /><br /> br
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" />
+      </fieldset>
+    </form>
+    <br><br>
+    <form action="">
+      <fieldset>
+        <legend>Your Review:</legend>
+        <label> How did you hear aboout us</label>
+        <select>
+          <option>Google</option>
+          <option>Microsoft Edge</option>
+          <option>Fire Fox</option>
+          <option>Opera</option>
+        </select>
+        <br /><br />
+        <label>Would you visit again?</label><br />
+        <input type="radio" name="visit" id="yes" />
+        <label for="yes">Yes</label>
+        <input type="radio" name="visit" id="No" />
+        <label for="No">No</label>
+        <input type="radio" name="visit" id="Maybe" />
+        <label for="Maybe">Maybe</label>
+        <br>
+        <label for="comment">Comment:</label>
+        <br />
+        <textarea
+          name="textarea"
+          id="text"
+          style="height: 100px; width: 300px; padding: 10px"
+        ></textarea>
+        <br>
+        <input type="checkbox" name="true">
+        <label for="true">Sign me up for email updates</label>
+        <br> <br>
+        <button type="submit" >Submit review</button>
+      </fieldset>
+    </form>
+    <style></style>
+  </body>
+</html>
